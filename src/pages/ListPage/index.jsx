@@ -13,7 +13,7 @@ import {
 
 import { Ionicons, MaterialIcons } from "@expo/vector-icons"
 
-export default function App() {
+export default function ToDo() {
   
   const[task, setTask] = useState([]);
   const[newTask, setNewTask] = useState('');
