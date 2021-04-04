@@ -88,6 +88,7 @@ export default function ToDo() {
   return (
       <View style={styles.container}>
         <StatusBar backgroundColor="#59c184"/>
+        <Text style={styles.text}>List Page</Text>
         
         <View style={styles.body}>
           <FlatList
@@ -133,7 +134,7 @@ export default function ToDo() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#59c184',
+    backgroundColor: '#95e495',
     paddingHorizontal: 20,
     paddingVertical: 20,
   },
@@ -151,7 +152,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     paddingVertical: 20,
     paddingHorizontal: 30,
-    backgroundColor: '#eee',
+    backgroundColor: '#c4f5cd',
     borderRadius: 15,
     flexDirection: 'row',
     justifyContent: 'space-between'
@@ -170,7 +171,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     paddingTop: 14,
     borderTopWidth: 1,
-    borderColor: '#eee',
+    borderColor: '#ffffff',
   },
 
   input: {
@@ -189,11 +190,19 @@ const styles = StyleSheet.create({
     width: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#16ce62',
+    backgroundColor: '#3CB371',
     borderWidth: 1,
     borderRadius: 15,
     borderColor: '#fff',
     marginLeft: 20
-  }
+  },
+
+  text: {
+    fontSize: 30,
+    textAlign: "center",
+    color: "#41414B",
+    marginTop: 5,
+    marginBottom: 75,
+  },
 
 });

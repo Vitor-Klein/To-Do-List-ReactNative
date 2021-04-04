@@ -6,7 +6,7 @@ import ListPage from './pages/ListPage'
 const AppStack = createStackNavigator()
 
 const Routes = () => (
-  <AppStack.Navigator headerMode="float" >
+  <AppStack.Navigator headerMode="none"  >
     <AppStack.Screen name="ListPage" component={ListPage} />
   </AppStack.Navigator>
 )
